@@ -1,0 +1,113 @@
+:root {
+    --gold: #dbbc8e;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wedding__logo {
+    width: 250px;
+    height: 150px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav__links__item {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 2.5rem;
+}
+
+.nav__links__item--active {
+    color: var(--gold);
+}
+
+.nav__links__item:focus {
+    color: var(--gold);
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__item {
+    width: 600px;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border: 1px solid #cdcdcd;
+}
+
+.img__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__icon {
+    width: 50px;
+    margin-top: 1.5rem;
+}
+
+.img__title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.img__details {
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.img__p__item1, .img__p__item3 {
+    margin-top: 1.5rem;
+}
+
+.img__span  {
+    border-bottom: 2px solid var(--gold);
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 3rem;   
+    margin-bottom: 2rem;
+}

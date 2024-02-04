@@ -1,0 +1,50 @@
+:root {
+    --dark-color: #3e3c3c;
+    --top-margin: 4rem;
+}
+
+h2, p, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.travel__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.travel__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--dark-color);
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(44, 43, 43);
+    width: 12%;
+    text-align: center;
+}
+
+.travel__subtitle {
+    margin-top: var(--top-margin);
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.travel__details {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.travel__p {
+    font-size: 0.9em;
+    margin-top: 1.5rem;
+}
+
+footer {
+    margin-top: 9rem;
+}
