@@ -17,8 +17,7 @@ h2, h3, p, footer {
     width: 100%;
 }
 
-.event__title,
-.event__title__item {
+.event__title {
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     font-weight: 400;
@@ -53,4 +52,26 @@ h2, h3, p, footer {
 
 footer {
     margin-bottom: 1.5rem;
+}
+
+
+/*!===RESPONSIVE===*/
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 350px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .event__title {
+    width: 23%;
+    }
 }

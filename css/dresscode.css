@@ -38,8 +38,52 @@ h2, p, footer {
 .dresscode__details {
     text-align: center;
     line-height: 1.5;
+    font-size: 1.2em;
 }
 
 footer {
     margin-top: 12rem;
+}
+
+
+/*!===RESPONSIVE===*/
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 350px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .dresscode__title {
+        width: 23%;
+    }
+
+    .dresscode__subtitle {
+        text-align: center;
+    }
+
+    .dresscode__details {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 1em;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .dresscode__title {
+        width: 14%;
+    }
 }
